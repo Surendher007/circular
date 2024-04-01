@@ -1,0 +1,16 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border: 40px solid red;
+    border-top: 40px solid pink;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+  display: flex;
+  align-content: center;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
